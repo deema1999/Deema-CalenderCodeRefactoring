@@ -35,7 +35,7 @@ public class MainForm extends JFrame {
         b1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent ae) {
               calendar1 =  SwingCalendar.gitInstance();
-               Util.Logger.log("Object HC: " + gitInstance().hashCode());
+               Util.Logger.log("Object HC: " + calendar1.hashCode());
             }
         });
 
@@ -43,7 +43,7 @@ public class MainForm extends JFrame {
         b2.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent ae) {
                calendar2 =  SwingCalendar.gitInstance();
-               Util.Logger.log("Object HC: " + gitInstance().hashCode());
+               Util.Logger.log("Object HC: " + calendar2.hashCode());
             }
         });
 
